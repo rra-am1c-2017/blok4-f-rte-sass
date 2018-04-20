@@ -1,0 +1,13 @@
+h1 {
+  color: red;
+  font-size: 2em;
+}
+
+#test {
+  background-color: #ff6666;
+  border: 20px solid #cc0000;
+  width: 50vh;
+  height: 50vh;
+}
+
+/*# sourceMappingURL=style.css.map */

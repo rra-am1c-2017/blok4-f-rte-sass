@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Arjan de Ruijter\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'sass-dev' ]
+2 info using npm@3.10.9
+3 info using node@v8.11.1
+4 verbose run-script [ 'presass-dev', 'sass-dev', 'postsass-dev' ]
+5 info lifecycle k-frte-training-am1c@1.0.0~presass-dev: k-frte-training-am1c@1.0.0
+6 silly lifecycle k-frte-training-am1c@1.0.0~presass-dev: no script for presass-dev, continuing
+7 info lifecycle k-frte-training-am1c@1.0.0~sass-dev: k-frte-training-am1c@1.0.0
+8 verbose lifecycle k-frte-training-am1c@1.0.0~sass-dev: unsafe-perm in lifecycle true
+9 verbose lifecycle k-frte-training-am1c@1.0.0~sass-dev: PATH: C:\Users\Arjan de Ruijter\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\wamp64\www\2017-2018\blok4\k-frte-training-am1c\node_modules\.bin;C:\Program Files\OpenSSH-Win64;C:\Users\Arjan de Ruijter\AppData\Local\Programs\Git\bin;C:\Program Files\OpenSSH-Win64;C:\Users\Arjan de Ruijter\AppData\Local\Programs\Git\bin;C:\Program Files\OpenSSH-Win64;C:\Program Files\OpenSSH-Win64;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\wamp\bin\php\php5.5.12\php.exe;C:/Users/Arjan de Ruijter/AppData/Local/Programs/Git/git-cmd.exe;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\OpenVPN\bin;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Arjan de Ruijter\AppData\Local\Programs\Git\bin\;C:\Program Files\nodejs\;C:\Program Files\OpenSSH-Win64;C:\Program Files\Java\jdk1.8.0_152;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files (x86)\Android\android-sdk\platform-tools;C:\Program Files (x86)\Android\android-sdk\build-tools\26.0.2\lib;C:\Program Files (x86)\Android\android-sdk\build-tools\26.0.2;C:\Program Files\Java\jdk-10;C:\Program Files\Java\jdk-10\bin;C:\Users\Arjan de Ruijter\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db;C:\Ruby22\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Arjan de Ruijter\AppData\Local\Microsoft\WindowsApps;C:\Users\Arjan de Ruijter\AppData\Local\atom\bin;C:\Users\Arjan de Ruijter\AppData\Local\GitHubDesktop\bin;C:\Users\Arjan de Ruijter\AppData\Local\Microsoft\WindowsApps;C:\Users\Arjan de Ruijter\AppData\Roaming\npm
+10 verbose lifecycle k-frte-training-am1c@1.0.0~sass-dev: CWD: C:\wamp64\www\2017-2018\blok4\k-frte-training-am1c
+11 silly lifecycle k-frte-training-am1c@1.0.0~sass-dev: Args: [ '/d /s /c',
+11 silly lifecycle   'node-sass --source-map true --watch --output-style expanded ./process/scss/*.scss --output ./css' ]
+12 silly lifecycle k-frte-training-am1c@1.0.0~sass-dev: Returned: code: 1  signal: null
+13 info lifecycle k-frte-training-am1c@1.0.0~sass-dev: Failed to exec sass-dev script
+14 verbose stack Error: k-frte-training-am1c@1.0.0 sass-dev: `node-sass --source-map true --watch --output-style expanded ./process/scss/*.scss --output ./css`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Users\Arjan de Ruijter\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:126:13)
+14 verbose stack     at EventEmitter.emit (events.js:214:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Users\Arjan de Ruijter\AppData\Roaming\npm\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:126:13)
+14 verbose stack     at ChildProcess.emit (events.js:214:7)
+14 verbose stack     at maybeClose (internal/child_process.js:925:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+15 verbose pkgid k-frte-training-am1c@1.0.0
+16 verbose cwd C:\wamp64\www\2017-2018\blok4\k-frte-training-am1c
+17 error Windows_NT 10.0.16299
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Arjan de Ruijter\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "sass-dev"
+19 error node v8.11.1
+20 error npm  v3.10.9
+21 error code ELIFECYCLE
+22 error k-frte-training-am1c@1.0.0 sass-dev: `node-sass --source-map true --watch --output-style expanded ./process/scss/*.scss --output ./css`
+22 error Exit status 1
+23 error Failed at the k-frte-training-am1c@1.0.0 sass-dev script 'node-sass --source-map true --watch --output-style expanded ./process/scss/*.scss --output ./css'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the k-frte-training-am1c package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node-sass --source-map true --watch --output-style expanded ./process/scss/*.scss --output ./css
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs k-frte-training-am1c
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls k-frte-training-am1c
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

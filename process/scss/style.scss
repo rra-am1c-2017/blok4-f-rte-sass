@@ -1,0 +1,14 @@
+$color: red;
+$size: 2em;
+
+h1 {
+  color: $color;
+  font-size: $size;
+}
+
+#test {
+  background-color: lighten($color, 20%);
+  border: 20px solid darken($color, 10%);
+  width: 50vh;
+  height: 50vh;
+}
