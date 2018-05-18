@@ -1,13 +1,60 @@
 h1 {
-  color: red;
+  color: #bcf3a7;
   font-size: 2em;
 }
 
 #test {
-  background-color: #ff6666;
-  border: 20px solid #cc0000;
+  background-color: white;
+  border: 20px solid #9aed7a;
   width: 50vh;
   height: 50vh;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.container, .container-fluid {
+  border: 1px solid red;
+}
+
+@media (max-width: 575.98px) {
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  .card-footer {
+    background-color: greenyellow;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card-footer {
+    background-color: red;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card-footer {
+    background-color: gold;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .card-footer {
+    background-color: lightcoral;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-footer {
+    background-color: blueviolet;
+  }
+  .text-muted {
+    color: white !important;
+    font-size: 1.4em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

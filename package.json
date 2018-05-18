@@ -4,7 +4,7 @@
   "description": "Examentraining k-frte",
   "main": "index.js",
   "scripts": {
-    "sass-dev" : "node-sass --source-map true --watch --output-style expanded C:/wamp64/www/2017-2018/blok4/k-frte-training-am1c/process/scss/ --output C:/wamp64/www/2017-2018/blok4/k-frte-training-am1c/css"
+    "sass-dev" : "node-sass --source-map true --watch --output-style expanded ./process/scss/ --output ./css"
   },
   "author": "Arjan de Ruijter",
   "license": "ISC",
