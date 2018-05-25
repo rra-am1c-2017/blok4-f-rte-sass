@@ -16,7 +16,39 @@
     <div class="container-fluid">Hier komt de navbar</div>
     <div class="container">
       <article class="row">
-        <section class="col-12 col-md-6 col-lg-4 col-xl-20">
+        <section class="col-12">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-50 h-50 mx-auto " src="./images/dagobert.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-50 h-50 mx-auto" src="./images/kwikkwekkwak.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-50 h-50 mx-auto" src="./images/magica.png" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </section>
+      </article>
+
+
+      <article class="row">
+        <section class="col-6 col-md-12 col-lg-3">
           <div class="card text-center">
             <div class="card-body">
               <img src="./images/blauw.png" alt="blauw">
@@ -26,7 +58,7 @@
             </div>
           </div>
         </section>
-        <section class="col-6 col-md-6 col-lg-4 col-xl-20">
+        <section class="col-6 col-md-3 col-lg-3">
           <div class="card text-center">
             <div class="card-body">
               <img src="./images/bruin.png" alt="bruin">
@@ -36,7 +68,7 @@
             </div>
           </div>
         </section>
-        <section class="col-6 col-md-12 col-lg-4 col-xl-20">
+        <section class="col-6 col-md-3 col-lg-3">
           <div class="card text-center">
             <div class="card-body">
               <img src="./images/geel.png" alt="geel">
@@ -46,7 +78,7 @@
             </div>
           </div>
         </section>
-        <section class="col-12 col-md-6 col-lg-4 col-xl-20">
+        <section class="col-6 col-md-3 col-lg-3">
           <div class="card text-center">
             <div class="card-body">
               <img src="./images/goud.png" alt="goud">
@@ -56,7 +88,7 @@
             </div>
           </div>
         </section>
-        <section class="col-6 col-md-6 col-lg-4 col-xl-20">
+        <section class="col-6 col-md-3 col-lg-12">
           <div class="card text-center">
             <div class="card-body">
               <img src="./images/grijs.png" alt="grijs">
@@ -66,7 +98,7 @@
             </div>
           </div>
         </section>
-        <section class="col-6 col-md-12 col-lg-4 col-xl-20">
+        <section class="col-6 col-md-12 col-lg-12">
           <div class="card text-center">
             <div class="card-body">
               <img src="./images/groen.png" alt="groen">
